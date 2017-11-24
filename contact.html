@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Activity 1: Student Bio</title>
+</head>
+
+<body>
+    <!-- Site Header -->
+    <header>
+        <div id="navbar" class="clearfix">
+            <h1>Peter Johnstone</h1>
+            <ul class="nav">
+                <li><a href="index.html">About</a></li>
+                <li>|</li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li>|</li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Section 1: Bio -->
+        <section id="main-bio">
+            <h2>Contact</h2>
+            <br>
+            <form name="contactform" action="send_form_email.php" method="POST">
+                <label for="your-name">Name</label>
+                <br>
+                <input type="text" id="your-name" placeholder="John Smith">
+                <br>
+                <label for="your-email">Email</label>
+                <br>
+                <input type="text" id="your-email" placeholder="example@gmail.com">
+                <br>
+                <label for="your-message">Message</label>
+                <br>
+                <textarea id="your-message"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- Sections 2: Contact Info -->
+        <section id="contact-info">
+            <h3>Connect With Me</h3>
+            <br>
+            <a href="https://github.com/p2bilt" target="blank"><img src="assets/images/if_github_square_107105.png" class="icon-image" alt="github"></a>
+            <a href="https://www.linkedin.com/in/peter-johnstone-0011013/" target="blank"><img src="assets/images/if_linkedin_square_color_107091.png" class="icon-image" alt="linkedin"></a>
+            <a href="https://stackoverflow.com/users/8897555/peter-johnstone" target="blank"><img src="assets/images/if_stackoverflow_273179.png" class="icon-image" alt="stackoverflow"></a>
+        </section>
+    </div>
+    <footer class="footer"> &#169; Copyright 2017 Peter Johnstone </footer>
+</body>
+
+</html>
